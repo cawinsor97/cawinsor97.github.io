@@ -55,6 +55,9 @@ display property{
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-column-gap: 1em; defining the space between your elements 
 }
+
+Margin: top right bottom left 
+padding: top right bottom left 
 ________________________________________________
 .menu {
 width: 100%;
