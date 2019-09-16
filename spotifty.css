@@ -1,0 +1,78 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background-color: white;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: #1eb954; 
+    position: relative; 
+    z-index: 100;
+}
+
+.heroimage {
+    width: 100%;
+    height: 400px; 
+    background-color: #4f9bf5; 
+    position: relative; 
+}
+
+.container{
+    display: grid;
+    margin-left:25%;
+    margin-top: 20px; 
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 500px;
+    grid-gap: 1rem;
+}
+.individal {
+    background-color: #1eb954;   
+}
+.family {
+    background-color: #1eb954; 
+}
+.student {
+    background-color: #1eb954;
+}
+
+.info {
+    position: relative;
+    background-color: #1eb954;
+    width: 100%;
+    height:500px;
+    z-index: 100;
+    margin-top: 50px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 300px;
+    grid-gap: 1rem;
+    margin-left: 18%;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.info1 {
+    background-color: black;  
+}
+.info2 {
+    background-color: black;  
+}
+.info3 {
+    background-color: black; 
+} 
+
+.info4 {
+        background-color: black; 
+}
+
+.footer {
+    width: 100%;
+    height:150px;
+    background-color: black;  
+    position: relative;
+}

@@ -74,3 +74,13 @@ body, html{
     background-color: #f8d795; 
     position: relative;  
 }
+
+.container {
+    position: absolute;
+    background-color: #eb697b;
+    width: 600px;
+    height:100px;
+    z-index: 100;
+    margin-top: 200px;
+    margin-left: 30%;
+}
