@@ -64,5 +64,51 @@ width: 100%;
 height: 50px;
 background-color: ; 
 position: fixed; 
-z-index: 100; /* the way we define our layers 0 is the lowest point, higher the number, the closer to the viewer /*
+z-index: 100; /* the way we define our layers 0 is the lowest point, higher the number, the closer to the viewer */
 }
+
+________________________________________________
+
+These tags are = Display: inline; 
+heading tag <h1> <h2> (1 most important - 6 least important)
+paragraphy tag <p> any "enter" is a new parahraph 
+Tags that we would wrap around text inside a parapgraph: 
+    bold text <b>
+    italic <i> 
+    emphasis <em> 
+    highlighted apperance <mark> 
+    <sub> subscript
+    <super> superscript 
+
+    ________________________________________________  
+
+/*---------- Tablets ---------- */
+@media only screen and (min-width:800px) and (max-width:1280px) {
+    body {
+        background-color: black; 
+    }
+}
+/*---------- SMART PHONE ---------- */
+@media only screen and (min-width:800px) {
+    body {
+        
+    }
+}
+________________________________________________  
+body {
+    background-color: black; 
+    color: red; /*---------- color is font color ---------- */
+    font-style: italic; /*---------- oblique, italics ---------- */
+    font-weight: bold; /*---------- bold ---------- */
+    font-size: 2em; /*---------- multiplyer of base style size - 2em = 2x(16) as large ---------- */
+    font-family: "Gill Sans" /*primary font wanted to use*/, sans-serif/*backup font*/; 
+    font-kerning: auto; 
+    line-height: 1em; 
+    letter-spacing: 5px;
+    text-align:center;
+}
+
+/*---------- rotation ---------- */
+transform-origin: center; 
+transform: rotate(-90deg);
+
