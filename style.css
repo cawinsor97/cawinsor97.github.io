@@ -1,3 +1,115 @@
-body{
-    background-color: yellow;
+body, html{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background-color: #1C1C1C;
+    font-family: 'Montserrat', sans-serif;
 }
+
+img{
+    margin: auto; 
+    max-height: 300px;
+    max-width:300px;
+    display: block;
+    margin-top: 75px;
+
+    
+}
+h1{
+    color: white;
+    font-weight:300;
+    text-transform: uppercase;
+    font-size:80px;
+    text-align: center;
+
+}
+
+.subhead {
+    color:white;
+    font-weight:300;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ .buttontext {
+     color: #1C1C1C;
+     text-align: center;
+     padding-top: 20px;
+ }
+
+ .button {
+    background-color: #E8C4B4;
+    border: none;
+    text-align: center;
+    height:50px;
+    width: 200px;
+    padding: 10px 24px;
+    margin:50px; /* space between buttons */
+  }
+
+  .buttontype {
+      margin-top: 15px;
+  }
+
+  .button-group{
+      display: grid; 
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 0px;
+      margin: auto;
+  }
+  .button:hover {
+    background-color:white;
+    color: #1C1C1C;
+}
+
+  .line{
+      width: 1px;
+      height: 175px;
+      background-color: white;
+      margin-left: 350px;
+      margin-top: -175px;
+  }
+
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px)  {
+  
+    body{
+        align-items: center;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .button-group{
+        display: inline-block; 
+        margin: auto;
+    }
+
+    h1{
+        color: white;
+        font-weight:300;
+        text-transform: uppercase;
+        font-size:30px;
+        text-align: center;
+    }
+
+    .subhead {
+        color:white;
+        font-weight:300;
+        text-align: center;
+        margin-bottom: 50px;
+        position: relative;
+    }
+}
+
+ 
+
+
+
+/* ----------- TABLETS ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+  
+}
+
