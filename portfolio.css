@@ -89,3 +89,56 @@ img{
     height: 100%;
     width: 100%;
   }
+
+
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px)  {
+
+    .aboutme{
+        display: none;
+    }
+
+    .portfolio{
+        display: none;
+    }
+    .grid-container {
+        display: grid;
+  
+        grid-template-columns: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        margin: auto;
+        width: 100%;
+      }
+
+      .grid-item {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .grid-item img {
+        height: 100%;
+        width: 100%;
+      }
+
+    }
+
+
+
+  }
+
+
+  /* ----------- TABLETS ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+
+    .grid-item {
+        background-size: cover; /* <-- background size */
+        background-position: center; /* <-- background position */
+        height: 225px;
+        width: 100%;
+        object-fit: cover;
+      }
+  
+}
