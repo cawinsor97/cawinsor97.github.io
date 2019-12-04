@@ -133,4 +133,54 @@ img{
       text-align: center;
   }
 
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px)  {
+
+    .aboutme{
+        display: none;
+    }
+
+    .portfolio{
+        display: none;
+    }
+    .headertype{
+        color:#E8C4B4;
+        font-size: 30px;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 20px;
+        margin-top: -50px;
+      }
+
+      .abouttype{
+        font-size: 14px;
+        text-align: left;
+        color: white;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .grid-item{
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+
+      .line {
+    display: none;
+      }
+
+    .grid-container{
+        display: inline;
+    }
+
+    .photo-container {
+        display: inline; 
+    }
+
+    .contactcontainer{
+        margin-top: -30px;
+    }
+
+}
+
 
