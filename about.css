@@ -7,8 +7,8 @@ body, html{
 }
 
 img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width:100%;
+    height:auto;
 }
 
 .topnav {
@@ -87,4 +87,30 @@ img{
     color: white;
     font-weight: 300;
 }
+
+
+.photo-container{
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin: auto;
+    width: 98%;
+    margin-top: 20px;
+
+}
+
+.photo-item {
+    background-size: cover; /* <-- background size */
+    background-position: center; /* <-- background position */
+    height: auto;
+    width: 100%;
+  }
+  
+  .photo-item img {
+    height: 100%;
+    width: 100%;
+  }
+
 
