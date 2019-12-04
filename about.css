@@ -71,7 +71,6 @@ img{
 
 }
   .headertype{
-    text-align: center;
     color:#E8C4B4;
     font-size: 30px;
     font-weight: 300;
@@ -111,6 +110,27 @@ img{
   .photo-item img {
     height: 100%;
     width: 100%;
+  }
+
+  .getintouch{
+    text-align: left;
+    color:#E8C4B4;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 20px; 
+  }
+
+  .contacttype{
+    font-size: 17px;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+  }
+
+  .contactcontainer{
+      margin: auto;
+      text-align: center;
   }
 
 
