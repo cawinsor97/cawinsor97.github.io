@@ -180,11 +180,11 @@ body, html{
 
   .aboutgrid-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     margin: auto;
-    width: 80%;
+    width: 100%;
     margin-top: 100px;
   }
 
@@ -299,7 +299,7 @@ body, html{
         font-weight: 300;
         text-align: left;
         margin-bottom: 20px;
-        margin-top: -50px;
+        
       }
 
       .abouttype{
@@ -311,10 +311,13 @@ body, html{
     }
 
     .aboutgrid-item{
-        margin-top: 40px;
-        margin-bottom: -10px;
-        max-width:90%;
+        max-width:600px;
         margin:auto;
+        display: block;
+    }
+
+    .aboutgrid-item2{
+      max-width: 200px;
     }
 
       .line {
@@ -322,7 +325,9 @@ body, html{
       }
 
     .aboutgrid-container{
-        display: inline;
+        display: block;
+        max-width: 600px;
+        margin:auto;
     }
 
     .aboutphoto-container {
@@ -665,7 +670,7 @@ h2{
 
 .mainimage {
   width: 100%;
-  object-fit: cover;
+  margin: auto;
 }
 
 .mainimage img {
@@ -676,5 +681,19 @@ h2{
   height: 100%;
   width: 100%;
 }
+
+/* ----------- SMART PHONES ----------- */
+@media only screen and (max-width: 800px)  {
+
+  .descriptiongrid {
+    display: block;
+  }
+
+  .additonalimages{
+    display: block;
+  }
+
+}
+
 
 /* ----------- PROJECT START----------- */
